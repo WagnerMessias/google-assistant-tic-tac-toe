@@ -1,0 +1,30 @@
+html {
+  display: flex;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex: 1;
+  margin: 0;
+  background-color: #FFFFFF;
+}
+
+.view {
+  position: relative;
+  flex: 1;
+}
+
+canvas {
+  display: block;
+  /* background-color: green; */
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
